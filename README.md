@@ -4,6 +4,7 @@ For today, your task is to create a pull request to add file in the `student_fil
 folder with your name in the title     
 
 First, create a branch using `git branch NewBranchName` (substitute your own branch name!)  
+You can check which branch you are on at any time using `git branch -v`  
 
 Next, switch to that branch with `git checkout NewBranchName`  
 
@@ -16,5 +17,7 @@ Next, use `git add .` to stage the file for commit
 Next, use `git commit -m "<your message here"` to commit the changes  
 
 Finally, use `git push` to push to the repository on GitHub!  
+You will probably have to use `git push --set-upstream origin JadenFordeBranch`   
+to tell git where you want the branch to go...  
 
 Now you can create a pull request to merge your changes into main  
